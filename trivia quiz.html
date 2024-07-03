@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navbar Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="trivi.css">
+</head>
+<body>
+	<header><nav class="navbar">
+		<ul>
+			<li><a href class="A" id="#home">Home</a></li>
+			<li><a href class="A" id="about">About</a></li>
+			<li><a href class="A" id="quiz">Quiz</a></li>
+			<li><a href class="A" id="feedback">Feedback</a></li>
+			<li><a href class="A" id="contact">Contact</a></li>
+		</ul>
+	</nav></header>
+
+	<!-- Page content  
+	<section id="home">
+		<h1>Home</h1>
+		<p>Welcome to our website!</p>
+	</section>
+
+	<section id="about">
+		<h1>About</h1>
+		<p>This is the about section.</p>
+	</section>
+
+	<section id="quiz">
+		<h1>Quiz</h1>
+		<p>This is the quiz section.</p>
+	</section>
+
+	<section id="feedback">
+		<h1>Feedback</h1>
+		<p>This is the feedback section.</p>
+	</section>
+
+	<section id="contact">
+		<h1>Contact</h1>
+		<p>This is the contact section.</p>
+	</section>-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Quiz
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Feedback</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="C:\Users\hp\Downloads\trivia.jpeg" height="500" width="300" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://media.istockphoto.com/id/1443628665/photo/adult-writing-in-the-classroom.jpg?b=1&s=612x612&w=0&k=20&c=f2Ig40GTSIBpAnZtT3Ne0JecZoMsda_pFrgPGaJZ1hQ=" height="500" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.pexels.com/photos/4769464/pexels-photo-4769464.jpeg?auto=compress&cs=tinysrgb&w=600" height="500" width="200" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">trivia quiz</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <h1><A HREF=https://www.britannica.com/quiz/browse>TRIVIA QUIZ </h1></a>
+      <P><b>Whether or not you are a competitive person, there is something about trivia that just brings it out in everyone. Unlike Monopoly, which changes people (and not for the better) while playing, trivia tends to generate a healthier type of competitiveness. And we've got 324 trivia questions to make your competitive game night truly unforgettable.
+
+        All you really need are some categories (like animal trivia, entertainment trivia, Disney trivia, etc.), and some questions and answers for each. You will also want to make sure everyone agrees on the level of difficulty you want in your questions. Usually, you want to have general questions that at least most adults will know, otherwise, it wouldn't be much fun if no one can get anything correct.
+        
+        So, get your snacks and beer ready. We have the most comprehensive list of 324 questions and answers for your trivia night of fun!</b></P>
+ <!-- Create a container for the quiz section -->
+<div id="quiz-container">
+    <!-- Quiz questions will be loaded dynamically here -->
+  </div>
+   
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <script src="scri.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+ 
